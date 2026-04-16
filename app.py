@@ -11,7 +11,7 @@ def connect_db():
         host="localhost",
         user="root",
         password="",
-        database="db_rejiku"
+        database=""
     )
 
 def get_all_products():

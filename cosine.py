@@ -7,10 +7,10 @@ app = Flask(__name__)
 
 def connect_db():
     return mysql.connector.connect(
-        host="localhost",
-        user="root",
+        host="",
+        user="",
         password="",
-        database="db_rejiku"
+        database=""
     )
 
 def get_all_products():
